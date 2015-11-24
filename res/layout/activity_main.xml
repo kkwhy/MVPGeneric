@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+	<TextView 
+	    android:id="@+id/tv_top"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:background="@color/theme_blue"
+	    android:text="泛型mvp测试"
+	    android:textColor="@color/white"
+	    android:textSize="18sp"
+	    android:gravity="center"/>
+
+	<TextView
+	    android:id="@+id/tv_login"
+	    android:layout_width="200dp"
+	    android:layout_height="40dp"
+	    android:layout_below="@+id/tv_top"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="322dp"
+	    android:textColor="@color/white"
+	    android:textSize="18sp"
+	    android:gravity="center"
+	    android:background="@drawable/rounded_button_theme_blue"
+	    android:text="点击登录" />
+
+	<TextView
+	    android:id="@+id/tv_response"
+	    android:layout_width="match_parent"
+	    android:layout_height="200dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:background="@drawable/rounded_button_transparent"
+	    android:layout_below="@+id/tv_top"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="46dp"
+	    android:padding="10dp"
+	    android:text="返回的参数" />
+	
+</RelativeLayout>
